@@ -74,11 +74,11 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    {
-      resolve: `gatsby-plugin-netlify-cache`,
-      options: {
-        // cachePublic: true
-      }
-    }
+    // {
+    //   resolve: `gatsby-plugin-netlify-cache`,
+    //   options: {
+    //     cachePublic: true
+    //   }
+    // }
   ],
 }

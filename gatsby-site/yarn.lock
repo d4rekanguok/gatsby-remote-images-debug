@@ -5417,8 +5417,10 @@ gatsby-remark-copy-linked-files@^2.1.26:
     probe-image-size "^4.1.1"
     unist-util-visit "^1.4.1"
 
-"gatsby-remark-images-anywhere@file:.yalc/gatsby-remark-images-anywhere":
-  version "1.0.3-a44e3f20"
+gatsby-remark-images-anywhere@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images-anywhere/-/gatsby-remark-images-anywhere-1.0.3.tgz#80f7ddb766c59579010a25535984ebecff0cbe93"
+  integrity sha512-xvaW+F7xAIarfC96p1rCTivb3Urf/+TZJaTFfvjYSQTYp6KH6nzQgwbqD8nnU31TzJaFzeHFBT+01zmaBvkXnQ==
   dependencies:
     parse5 "^5.1.0"
     unist-util-select "^2.0.2"
