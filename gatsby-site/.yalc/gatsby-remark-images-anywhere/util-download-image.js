@@ -9,7 +9,15 @@ exports.downloadImage = async ({ id, url, store, getNode, touchNode, cache, crea
     let imageFileNode;
     const mediaDataCacheKey = `gria-${url}`;
     const cacheMediaData = await cache.get(mediaDataCacheKey);
+    console.log(`-------- remark-remote-images -------`);
+    console.log(`CACHE EXIST?`);
+    console.log(cacheMediaData);
+    console.log(`-------- end of remark-remote-images -------`);
     if (cacheMediaData && cacheMediaData.fileNodeId) {
+        console.log(`-------- remark-remote-images -------`);
+        console.log(`SEARCH CACHE`);
+        console.log(cacheMediaData.fileNodeId);
+        console.log(`-------- end of remark-remote-images -------`);
         const fileNodeId = cacheMediaData.fileNodeId;
         const fileNode = getNode(fileNodeId);
         if (fileNode) {
@@ -21,7 +29,7 @@ exports.downloadImage = async ({ id, url, store, getNode, touchNode, cache, crea
     }
     if (!imageFileNode) {
         console.log(`-------- remark-remote-images -------`);
-        console.log(`NO IMAGE FILE NODE`);
+        console.log(`DOWNLOAD AGAIN`);
         console.log(`-------- end of remark-remote-images -------`);
         try {
             const imageUrl = process.env.LOW_WIFI_MODE
