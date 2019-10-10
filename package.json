@@ -6,7 +6,7 @@
   "scripts": {
     "start:server": "node ./image-server",
     "test:cache": "cd gatsby-site && gatsby clean && NETLIFY_BUILD_BASE=\"../base\" yarn netlify:build",
-    "build:gatsby": "cd gatsby-site && npm i && npm run build",
+    "build:netlify": "cd gatsby-site && npm i && npm run build:netlify",
     "deploy:server": "git subtree push --prefix image-server heroku master"
   },
   "keywords": [],

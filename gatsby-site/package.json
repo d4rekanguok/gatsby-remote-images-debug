@@ -51,7 +51,8 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "netlify:build": "NETLIFY_BUILD_BASE=\"../base\" SSG=gatsby netlify-ssg-cache",
+    "netlify:dev": "NETLIFY_BUILD_BASE=\"../base\" SSG=gatsby netlify-ssg-cache",
+    "netlify:build": "SSG=gatsby netlify-ssg-cache",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
