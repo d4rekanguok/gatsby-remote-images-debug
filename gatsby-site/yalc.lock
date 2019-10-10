@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "gatsby-remark-images-anywhere": {
+      "signature": "a44e3f204ea4fe54135eba35ece43a1f",
+      "file": true
+    }
+  }
+}

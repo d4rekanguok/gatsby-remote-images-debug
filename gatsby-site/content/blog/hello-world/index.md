@@ -7,8 +7,8 @@ description: "Hello World"
 ### Remote image
 
 This changes should not download the images again.
-
-![cat](https://gatsby-remote-images-debug.herokuapp.com/cat.jpg)
+asddas
+![cat](http://localhost:4000/cat.jpg)
 
 ### Local image
 
