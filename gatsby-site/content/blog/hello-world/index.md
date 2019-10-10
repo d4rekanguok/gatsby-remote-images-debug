@@ -6,7 +6,7 @@ description: "Hello World"
 
 ### Remote image
 
-This should not download the image again
+This changes should not download the images again.
 
 ![cat](https://gatsby-remote-images-debug.herokuapp.com/cat.jpg)
 
