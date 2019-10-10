@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:gatsby": "cd gatsby-site && yarn build",
+    "build:gatsby": "cd gatsby-site && npm run build",
     "deploy:server": "git subtree push --prefix image-server heroku master",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
